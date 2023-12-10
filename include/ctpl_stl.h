@@ -66,7 +66,7 @@ namespace ctpl {
             std::queue<T> q;
             std::mutex mutex;
         };
-    }
+    } // namespace detail
 
     class thread_pool {
 
